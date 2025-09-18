@@ -16,6 +16,7 @@
         android:padding="8dp"
         android:layout_margin="15sp"
         android:textSize="18sp"
+        android:fontFamily="sans-serif-medium"
         />
 
     <EditText
@@ -27,16 +28,18 @@
         android:padding="8dp"
         android:textAlignment="center"
         android:layout_margin="15sp"
+        android:fontFamily="sans-serif-medium"
         android:maxLength="150"/>
 
     <Button
         android:id="@+id/button"
-        android:layout_width="369dp"
-        android:layout_height="63dp"
+        android:layout_width="371dp"
+        android:layout_height="48sp"
         android:layout_margin="15sp"
         android:backgroundTint="@color/green"
         android:padding="8dp"
         android:text="CALCULAR"
+        android:fontFamily="sans-serif-medium"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:icon="@drawable/icone360"
@@ -47,7 +50,8 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="48sp"
+        android:fontFamily="sans-serif-medium"
         android:textSize="18sp"
         android:layout_gravity="center_horizontal"
         tools:text="RESULTADO"
