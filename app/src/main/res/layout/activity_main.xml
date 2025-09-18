@@ -23,7 +23,6 @@
         android:layout_width="match_parent"
         android:layout_height="48sp"
         android:hint="DIGITE SUA IDADE"
-
         android:inputType="number"
         android:padding="8dp"
         android:textAlignment="center"
@@ -32,14 +31,18 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_width="369dp"
+        android:layout_height="63dp"
+        android:layout_margin="15sp"
         android:backgroundTint="@color/green"
-        android:textColor="@color/white"
-        android:textSize="18sp"
         android:padding="8dp"
         android:text="CALCULAR"
-        android:layout_margin="15sp"/>
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:icon="@drawable/icone360"
+        app:iconSize="40dp"
+
+        />
 
     <TextView
         android:id="@+id/textView"
